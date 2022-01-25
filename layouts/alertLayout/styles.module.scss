@@ -1,0 +1,15 @@
+.alertContainer {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  display: flex;
+  transform: translateX(-50%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  .alertItem{
+    margin-bottom: 10px;
+  }
+}
+

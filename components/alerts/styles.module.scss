@@ -1,0 +1,21 @@
+.alert {
+  width: 400px;
+  border: 2px solid rgba(255, 0, 0, 0.43);
+  border-radius: 5px;
+  background-color: rgba(255, 154, 154, 0.91);
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  color: rgba(131, 0, 0, 0.91);
+
+  .close {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    color: rgba(255, 0, 0, 0.43);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
